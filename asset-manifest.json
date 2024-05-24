@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hw2Chat/static/css/main.93caaba3.css",
-    "main.js": "/hw2Chat/static/js/main.8784869d.js",
+    "main.css": "/hw2Chat/static/css/main.3e58f691.css",
+    "main.js": "/hw2Chat/static/js/main.58330268.js",
     "static/js/787.66cb4309.chunk.js": "/hw2Chat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw2Chat/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/hw2Chat/index.html",
-    "main.93caaba3.css.map": "/hw2Chat/static/css/main.93caaba3.css.map",
-    "main.8784869d.js.map": "/hw2Chat/static/js/main.8784869d.js.map",
+    "main.3e58f691.css.map": "/hw2Chat/static/css/main.3e58f691.css.map",
+    "main.58330268.js.map": "/hw2Chat/static/js/main.58330268.js.map",
     "787.66cb4309.chunk.js.map": "/hw2Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93caaba3.css",
-    "static/js/main.8784869d.js"
+    "static/css/main.3e58f691.css",
+    "static/js/main.58330268.js"
   ]
 }
