@@ -10,5 +10,5 @@ export const Contaniter = () => {
 };
 
 const ContainterWrap = styled.section`
-    width:1200px
+    width:1280px
 `

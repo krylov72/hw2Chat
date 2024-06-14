@@ -1,22 +1,50 @@
 .greetingForm {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .inputAndButtonContainer {
+
+    display: flex;
+    gap:10px;
 }
 
 .error {
+    color:red;
+    font-size: 13px;
 }
 
 .input {
+    height: 30px;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 1px solid red;
+    color:red;
+    height: 30px;
 }
 
 .button {
+  
+    background-color: #2340e7;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s ;
+&:disabled{
+    transition: all ease-in-out 0.5s ;
+    opacity: 0.5;
+    background-color: rgb(173, 48, 48);
+}
+    
 }
 
 .button:focus {
@@ -29,6 +57,8 @@
 }
 
 .text {
+    color:rgb(112, 110, 110);
+    font-size: 13px;
 }
 
 .greeting {

@@ -1,16 +1,17 @@
 import React from 'react'
 import {pureAddUser} from '../GreetingContainer'
+import { UserType } from '../HW3'
 
-let name: any
-const setName = (a: any) => {
+let name: string
+const setName = (a: string) => {
     name = a
 }
-let error: any
-const setError = (a: any) => {
+let error: string
+const setError = (a: string) => {
     error = a
 }
-let added: any
-const addUserCallback = () => {
+let added: boolean
+const addUserCallback = (name:string) => {
     added = true
 }
 

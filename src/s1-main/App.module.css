@@ -1,9 +1,20 @@
 .App {
     --header_height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hw {
 
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
 .hwTitle {
@@ -17,7 +28,7 @@ position: relative;
     border-bottom: 1px solid rgba(0, 0, 0, 0.226);
     z-index: 10;
     overflow: auto;
-    left:calc(50% + -50vw);
+    left:calc(50% + -50vw); 
     top:70px;
 }
 }
