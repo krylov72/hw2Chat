@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/hw2Chat/static/css/main.619878f7.css",
-    "main.js": "/hw2Chat/static/js/main.6dce28eb.js",
+    "main.css": "/hw2Chat/static/css/main.75e8510b.css",
+    "main.js": "/hw2Chat/static/js/main.d8f59386.js",
     "static/js/787.66cb4309.chunk.js": "/hw2Chat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw2Chat/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/checked.svg": "/hw2Chat/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/hw2Chat/index.html",
-    "main.619878f7.css.map": "/hw2Chat/static/css/main.619878f7.css.map",
-    "main.6dce28eb.js.map": "/hw2Chat/static/js/main.6dce28eb.js.map",
+    "main.75e8510b.css.map": "/hw2Chat/static/css/main.75e8510b.css.map",
+    "main.d8f59386.js.map": "/hw2Chat/static/js/main.d8f59386.js.map",
     "787.66cb4309.chunk.js.map": "/hw2Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.619878f7.css",
-    "static/js/main.6dce28eb.js"
+    "static/css/main.75e8510b.css",
+    "static/js/main.d8f59386.js"
   ]
 }
