@@ -21,14 +21,5 @@ button{
 font-weight: bold;
 margin: 40px 0 10px 15px;
 position: relative;
-&::after{
-    content:'';
-    width: 100vw;
-    position: fixed;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
-    z-index: 10;
-    overflow: auto;
-    left:calc(50% + -50vw); 
-    top:70px;
-}
+
 }

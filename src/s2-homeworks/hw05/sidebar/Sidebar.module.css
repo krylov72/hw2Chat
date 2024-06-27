@@ -1,24 +1,63 @@
 .sidebar {
+    display: none;
+
+    
+
 }
 
 .sidebar.open {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 300px;
+    height: 100vh;
+    z-index: 99999;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 10px;
 }
 
 .background {
+    
+ 
 }
 
 .nav {
+    color:black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+   
 }
 
 .nav a {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
 }
 
 .nav a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    color:cyan
+
 }
 
 .nav a.active {
+    text-decoration: underline;
+    color:darkcyan;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 .close {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
 }
 
 .close img {
