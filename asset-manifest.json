@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hw2Chat/static/css/main.7cd30c62.css",
+    "main.css": "/hw2Chat/static/css/main.cca2126b.css",
     "main.js": "/hw2Chat/static/js/main.b0616266.js",
     "static/js/787.66cb4309.chunk.js": "/hw2Chat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw2Chat/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -9,12 +9,12 @@
     "static/media/checked.svg": "/hw2Chat/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/hw2Chat/index.html",
     "static/media/burger.svg": "/hw2Chat/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.7cd30c62.css.map": "/hw2Chat/static/css/main.7cd30c62.css.map",
+    "main.cca2126b.css.map": "/hw2Chat/static/css/main.cca2126b.css.map",
     "main.b0616266.js.map": "/hw2Chat/static/js/main.b0616266.js.map",
     "787.66cb4309.chunk.js.map": "/hw2Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cd30c62.css",
+    "static/css/main.cca2126b.css",
     "static/js/main.b0616266.js"
   ]
 }
