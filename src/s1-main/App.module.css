@@ -1,6 +1,7 @@
 .App {
     --header_height: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	overflow: hidden;
 }
 
 .hw {

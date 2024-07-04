@@ -42,7 +42,7 @@ const HW6 = () => {
                 </div>
 
                 <div className={s.buttonsContainer}>
-                    <SuperButton id={'hw6-save'} onClick={save} title='Save to ls'>
+                    <SuperButton id={'hw6-save'} onClick={save}>
                         Save to ls
                     </SuperButton>
                     <SuperButton

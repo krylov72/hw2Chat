@@ -12,20 +12,15 @@
 
 .secondary {
     color:rgb(25, 78, 221);
-    font-size: 0;
-    
-    &::after{
-        content: "Get from ls";
-        background-color: transparent;
+    background-color: transparent;
         border:2px solid rgb(62, 105, 221);
         font-size: 17px;
         font-weight: 600;
         padding: 5px 30px;
         border-radius: 5px;
-        
-    }
-    &:hover::after{
-        content: "Get from ls";
+    
+   
+    &:hover{
         background-color: rgba(112, 143, 228, 0.226);
         font-size: 17px;
         font-weight: 600;
@@ -33,8 +28,8 @@
         border-radius: 5px;
     }
 
-    &:active::after{
-        content: "Get from ls";
+    &:active{
+       
         background-color: rgba(112, 143, 228, 0.486);
         font-size: 17px;
         font-weight: 600;
@@ -46,27 +41,23 @@
 .default{
     color:rgb(255, 255, 255);
     font-size: 0px;
-    
-
-    &::after{
-        content: "Save to ls";
-        background-color: rgb(25, 78, 221);
+    background-color: rgb(25, 78, 221);
         font-size: 17px;
         font-weight: 600;
         padding: 5px 30px;
         border-radius: 5px;
-        
-    }
-    &:hover::after{
-        content: "Save to ls";
+
+   
+    &:hover{
+       
         background-color: rgb(62, 105, 221);
         font-size: 17px;
         font-weight: 600;
         padding: 5px 30px;
         border-radius: 5px;
     }
-    &:active::after{
-        content: "Save to ls";
+    &:active{
+        
         background-color: rgb(48, 80, 167);
         font-size: 17px;
         font-weight: 600;
@@ -77,19 +68,14 @@
 
 .red {
     color:white;
-    font-size: 0;
+    background-color: rgb(201, 24, 24);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px 30px; 
+    border-radius: 5px;
     
-    &::after{
-        content: "Опасность";
-        background-color: rgb(201, 24, 24);
-        font-size: 17px;
-        font-weight: 600;
-        padding: 5px 30px; 
-        border-radius: 5px;
-        
-    }
-    &:hover::after{
-        content: "При наведении";
+   
+    &:hover{
         background-color: rgb(209, 49, 49);
         font-size: 17px;
         font-weight: 600;
@@ -97,8 +83,7 @@
         border-radius: 5px;
     }
 
-    &:active::after{
-        content: "При нажатии";
+    &:active{
         background-color: rgb(163, 38, 38);
         font-size: 17px;
         font-weight: 600;
