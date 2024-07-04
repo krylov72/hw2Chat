@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/hw2Chat/static/css/main.cca2126b.css",
-    "main.js": "/hw2Chat/static/js/main.b0616266.js",
+    "main.css": "/hw2Chat/static/css/main.597e4f7d.css",
+    "main.js": "/hw2Chat/static/js/main.bd8a137f.js",
     "static/js/787.66cb4309.chunk.js": "/hw2Chat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw2Chat/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/hw2Chat/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
     "static/media/closeOutline.svg": "/hw2Chat/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
+    "static/media/editIcon.svg": "/hw2Chat/static/media/editIcon.11c8e1c42f9a4eae81897d68e091eb42.svg",
     "static/media/checked.svg": "/hw2Chat/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/hw2Chat/index.html",
     "static/media/burger.svg": "/hw2Chat/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.cca2126b.css.map": "/hw2Chat/static/css/main.cca2126b.css.map",
-    "main.b0616266.js.map": "/hw2Chat/static/js/main.b0616266.js.map",
+    "main.597e4f7d.css.map": "/hw2Chat/static/css/main.597e4f7d.css.map",
+    "main.bd8a137f.js.map": "/hw2Chat/static/js/main.bd8a137f.js.map",
     "787.66cb4309.chunk.js.map": "/hw2Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cca2126b.css",
-    "static/js/main.b0616266.js"
+    "static/css/main.597e4f7d.css",
+    "static/js/main.bd8a137f.js"
   ]
 }
