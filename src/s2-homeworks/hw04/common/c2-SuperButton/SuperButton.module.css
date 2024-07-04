@@ -15,7 +15,7 @@
     font-size: 0;
     
     &::after{
-        content: "Дополнительная";
+        content: "Get from ls";
         background-color: transparent;
         border:2px solid rgb(62, 105, 221);
         font-size: 17px;
@@ -25,7 +25,7 @@
         
     }
     &:hover::after{
-        content: "При наведении";
+        content: "Get from ls";
         background-color: rgba(112, 143, 228, 0.226);
         font-size: 17px;
         font-weight: 600;
@@ -34,7 +34,7 @@
     }
 
     &:active::after{
-        content: "При нажатии";
+        content: "Get from ls";
         background-color: rgba(112, 143, 228, 0.486);
         font-size: 17px;
         font-weight: 600;
@@ -49,7 +49,7 @@
     
 
     &::after{
-        content: "Дефолтная";
+        content: "Save to ls";
         background-color: rgb(25, 78, 221);
         font-size: 17px;
         font-weight: 600;
@@ -58,7 +58,7 @@
         
     }
     &:hover::after{
-        content: "При наведении";
+        content: "Save to ls";
         background-color: rgb(62, 105, 221);
         font-size: 17px;
         font-weight: 600;
@@ -66,7 +66,7 @@
         border-radius: 5px;
     }
     &:active::after{
-        content: "При нажатии";
+        content: "Save to ls";
         background-color: rgb(48, 80, 167);
         font-size: 17px;
         font-weight: 600;
