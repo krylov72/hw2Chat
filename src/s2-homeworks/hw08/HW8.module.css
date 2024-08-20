@@ -5,19 +5,47 @@
 }
 
 .users {
+    margin-left: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    &>tbody > tr{
+        border-bottom: 1px solid #000;
+    }
+    &>tbody > tr:last-child{
+        border-bottom: none
+    }
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
-.thead {
+.thead {    
+    background-color: rgba(173, 173, 173, 0.667);
+    font-weight: bold;
+    
+
+
+ 
 }
 
 .nameCol {
+    width: 200px;
+    padding: 10px;
+    
 }
 
 .ageCol {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+
+    
 }
