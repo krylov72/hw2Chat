@@ -46,6 +46,7 @@ const dispatch = useDispatch()
                 <SuperSelect
                     id={'hw12-select-theme'}
                     className={s.select}
+                    value={themeId}
                     onChangeOption={change}
                     options={themes}
                 />
