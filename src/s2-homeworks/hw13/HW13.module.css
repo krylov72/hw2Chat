@@ -1,22 +1,42 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .buttonsContainer {
+    display: flex;
+    gap:40px
 }
 
 .responseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
 }
 
 .imageContainer {
+    
 }
 
 .image {
+    width: 500px
+
 }
 
 .textContainer{
+    width: auto;
+    max-width: 800px;
 }
 
 .code {
+    font-weight: 500;
+    font-size: 50px;
 }
 
 .text {
+    font-size: 25px;
 }
 .info {
+    font-size: 25px;
 }
