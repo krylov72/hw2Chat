@@ -1,11 +1,11 @@
 import React from "react";
-import up from "../../../../assets/upload.png";
-import down from "../../../../assets/down-arrow.png";
+import upi from "../../../../assets/upload.png";
+import downi from "../../../../assets/down-arrow.png";
 import none from "../../../../assets/up-down.png";
 
 // добавить в проект иконки и импортировать
-const downIcon = down;
-const upIcon = up;
+const downIcon = downi;
+const upIcon = upi;
 const noneIcon = none;
 
 export type SuperSortPropsType = {
@@ -17,8 +17,11 @@ export type SuperSortPropsType = {
 
 export const pureChange = (sort: string, down: string, up: string) => {
   // пишет студент, sort: (click) => down (click) => up (click) => '' (click) => down ...
+
   if (sort === down) {
     return up;
+  } else if (sort === up) {
+    return "";
   } else {
     return down;
   }
