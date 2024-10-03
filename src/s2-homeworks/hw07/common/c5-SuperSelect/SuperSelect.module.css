@@ -1,9 +1,12 @@
 .select {
+    font-size: 12px;
 }
 
 .select:focus {
+outline: none;
 }
 
 
 .option:hover {
+    
 }

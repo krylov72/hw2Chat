@@ -47,13 +47,14 @@ const HW14 = () => {
     // делает студент
 
     // добавить/заменить значение в квери урла
-    setSearchParams({ tech: value });
+    setSearchParams({ tech: value }); // change query
 
     //
   };
 
   useEffect(() => {
     const params = Object.fromEntries(searchParams);
+
     sendQuery(params.find || "");
     setFind(params.find || "");
   }, []);
